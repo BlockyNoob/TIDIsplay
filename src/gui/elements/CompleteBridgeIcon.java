@@ -1,4 +1,4 @@
-package gui.icons;
+package gui.elements;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 public class CompleteBridgeIcon extends JLabel{
 
 	private static final long serialVersionUID = -4438357777874230397L;
-	private static ImageIcon image = new ImageIcon("./resources/icons/completeBridge.png");
+	private static ImageIcon image = new ImageIcon("./resources/completeBridge.png");
 	
 	public CompleteBridgeIcon(int x, int y) {
 		super(image);
